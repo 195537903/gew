@@ -59,7 +59,7 @@ log_path = os.path.join(logs_dir, datetime.date.today().strftime('%Y%m%d') + '.t
 
 
 # 配置数据库连接
-connect = pymssql.connect('GEW-MIS01', 'pbread', 'limitereader01',as_dict=True, tds_version='7.0')
+connect = pymssql.connect('GEW-MIS01', 'pbread', 'password',as_dict=True, tds_version='7.0')
 log('数据库连接成功')
 
 
